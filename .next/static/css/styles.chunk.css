@@ -1,0 +1,52 @@
+body {
+  margin: 0; }
+
+.page {
+  background-image: url("/static/images/IMG_1058.jpeg");
+  background-size: cover;
+  height: 100vh;
+  background-position-y: bottom;
+  width: -webkit-fill-available;
+  position: fixed; }
+  .page__container {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-basis: 100%; }
+  .page__section--centered {
+    margin: 7.5rem auto 0; }
+
+.module--centered {
+  display: flex;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 4rem 4rem 3.5rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.header--x-large {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #fff;
+  font-family: aileronlight; }
+  @media (max-width: 420px) {
+    .header--x-large {
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      line-height: 2.5rem; } }
+  @media (min-width: 420px) and (max-width: 650px) {
+    .header--x-large {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      margin-bottom: 3rem; } }
+  @media (min-width: 650px) {
+    .header--x-large {
+      margin-bottom: 4rem;
+      font-size: 4rem;
+      line-height: 4rem; } }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

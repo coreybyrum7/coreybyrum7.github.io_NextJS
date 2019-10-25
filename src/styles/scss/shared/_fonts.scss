@@ -1,0 +1,101 @@
+@import "../shared/_breakpoints";
+
+.header {
+
+    &--x-large {
+
+        margin-bottom: 4rem;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        color: #fff;
+        font-family: aileronlight;
+
+        @media (max-width: 420px) {
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+        }
+
+        @media (min-width: 420px) and (max-width: 650px) {
+            font-size: 3.5rem;
+            line-height: 3.5rem;
+            margin-bottom: 3rem;
+        }
+
+        @media (min-width: 650px) {
+            margin-bottom: 4rem;
+            font-size: 4rem;
+            line-height: 4rem;
+        }
+    }
+
+    &--large {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+    &--medium {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+    &--small {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+    &--x-small {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+}
+
+.description {
+
+    &--large {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+    &--medium {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+    &--small {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+
+    }
+
+    &--x-small {
+
+        @media (max-width: $mobile-breakpoint) {
+
+        }
+        
+    }
+
+}

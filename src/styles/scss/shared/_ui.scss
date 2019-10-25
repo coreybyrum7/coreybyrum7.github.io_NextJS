@@ -1,0 +1,14 @@
+@import "../shared/_variables";
+
+.module {
+
+    &--centered {
+        display: flex;
+        margin: 0 auto;
+        height: fit-content;
+        padding: 4rem 4rem 3.5rem;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+}
