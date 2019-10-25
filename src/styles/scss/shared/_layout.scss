@@ -1,0 +1,40 @@
+@import "../shared/_variables";
+@import "../shared/_breakpoints";
+
+body {
+    margin: 0;
+}
+
+.page {
+
+    background-image: url('/static/images/IMG_1058.jpeg');
+    background-size: cover;
+    height: 100vh;
+    background-position-y: bottom;
+    width: -webkit-fill-available;
+    position: fixed;
+
+    &__container {
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.55);
+        display: flex;
+        flex-basis: 100%;
+
+        &__navigation {
+        
+        }
+    
+        &__content {
+    
+        }
+
+    }
+
+    &__section {
+
+        &--centered {
+            margin: 7.5rem auto 0;
+        }
+    }
+
+}
